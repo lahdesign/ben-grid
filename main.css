@@ -21,14 +21,11 @@ body{
 
 nav{
     position:fixed;
-    /* top:0px; */
     margin: auto;
     z-index:10;
     width: 90%;
     display: flex;
     margin: 0 auto;
-    /* height: 60px; */
-    /* max-width: 1300px; */
     flex-direction: column;
     text-align: center;
     align-items: center;
@@ -36,7 +33,7 @@ nav{
     font-family: 'Ubuntu', sans-serif;
     
   } 
-  .glass{
+ .glass{
     background: rgba(159, 204, 255, 0.404);
         box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
         border-radius: 50px;
@@ -73,7 +70,6 @@ a:hover{
 
 
 
-/* Nav Bar */
 
 /* Image Grid */
 .image-gallery {
@@ -228,7 +224,9 @@ img {
   @media only screen and (min-width: 1200px) {
   
     .link{
-        font-size: 30px;  }
+        font-size: 20px;  
+      }
+
         ul {
           gap: 4rem;
       }      
