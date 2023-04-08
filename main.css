@@ -145,7 +145,7 @@ a:hover{
 }
 /* fixing image overflow problem on mobile */
 img {
-  max-width: 100%;
+  max-width: 90%;
 }
 /* Image Grid */
 
