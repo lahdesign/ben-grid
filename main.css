@@ -48,14 +48,14 @@ nav{
            
         ul {
           display: flex;
-          gap: 2rem;
+          gap: 1rem;
           align-items: center; 
       }     
   
        li{
           list-style: none;
           text-decoration: none;
-          padding: 20px 20px;
+          padding: 20px 10px;
        }
 
  
@@ -145,7 +145,7 @@ a:hover{
 }
 /* fixing image overflow problem on mobile */
 img {
-  max-width: 90%;
+  max-width: 100%;
 }
 /* Image Grid */
 
@@ -230,10 +230,11 @@ img {
     .link{
         font-size: 30px;  }
         ul {
-         
           gap: 4rem;
       }      
-        
+      li{
+        padding: 10px 60px;
+      }
         .image-gallery {
           height: 100%;
           display: grid;
@@ -254,13 +255,6 @@ img {
         padding-top:120px;
       }
   }
-/* Temp Border */
-
-/* html{
-    border: solid red 10px;
-    height: 4319px;
-} */
-/* Temp Border */
 
 
 
