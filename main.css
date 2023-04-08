@@ -15,6 +15,7 @@ body{
   background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
   width:100%;
 }
+
 /* Nav Bar */
 
 
@@ -133,6 +134,16 @@ a:hover{
     font-size: 2em;
     padding-right: .5ch;
 }
+/* about me section */
+.about-me-container{
+  display:grid;
+  margin-left:10%;
+  margin-right:10%;
+  grid-template-columns: 1fr;
+  grid-row:auto;
+  padding-top:70px;
+  /* margin-top:10%; */
+}
 /* Image Grid */
 
 .hovereffect {
@@ -228,7 +239,12 @@ a:hover{
           "d e f"
           "g h i";
       }
-
+      .about-me-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row:auto;
+        padding-top:120px;
+      }
   }
 /* Temp Border */
 
