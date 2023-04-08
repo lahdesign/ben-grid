@@ -142,7 +142,10 @@ a:hover{
   grid-template-columns: 1fr;
   grid-row:auto;
   padding-top:70px;
-  /* margin-top:10%; */
+}
+/* fixing image overflow problem on mobile */
+img {
+  max-width: 100%;
 }
 /* Image Grid */
 
@@ -260,10 +263,5 @@ a:hover{
 /* Temp Border */
 
 
-/* .benjamin {
-    width: 40%;
-    position: relative;
-    left: 700px;
-    top: 1300px;
-} */
+
  
