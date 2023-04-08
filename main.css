@@ -77,15 +77,15 @@ a:hover{
 .image-gallery {
     height: 100%;
     display: grid;
-    grid-template-columns: none;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
     grid-template-areas:
-    ". a b c ."
-    ". d e f ."
-    ". g h i .";
+    "a b c"
+    "d e f"
+    "g h i";
 }
 .box-styling {
     height: 350px;
@@ -207,9 +207,21 @@ a:hover{
   }
   @media only screen and (min-width: 1200px) {
     .link{
-        font-size: 30px;   
+        font-size: 30px;  } 
         
-      
+        .image-gallery {
+          height: 100%;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: auto;
+          grid-gap: 0px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+          grid-template-areas:
+          "a b c"
+          "d e f"
+          "g h i";
+      }
 
   }
 /* Temp Border */
