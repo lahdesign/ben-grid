@@ -93,10 +93,12 @@ a:hover{
 .box-styling {
     /* height: 350px; */
     background-color: rgb(110, 110, 110);
+    border-radius: 20px;
     /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
   }
 .box-wrapper{
   /* height:350px; */
+  border-radius: 20px;
 }
 .box1 {
     grid-area: a;
